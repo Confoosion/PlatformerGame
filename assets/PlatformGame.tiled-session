@@ -1,0 +1,257 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level-1-platform.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.53
+        },
+        "/Users/jsales/CMPM120/PlatformImprovement-master/assets/platformer-level-1.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.69,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 394.20289855072474,
+                "y": 352.89855072463774
+            }
+        },
+        "/Users/jsales/CMPM120/PlatformImprovement-master/assets/platformer-level-1.tmx#kenny_tilemap_packed": {
+            "scaleInDock": 1
+        },
+        "endScreen.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1027.2727272727273,
+                "y": 607.5757575757576
+            }
+        },
+        "endScreen.tmx#level-end": {
+            "scaleInDock": 0.2288,
+            "scaleInEditor": 1
+        },
+        "endScreen.tmx#level-end-Obby": {
+            "scaleInDock": 0.181,
+            "scaleInEditor": 1
+        },
+        "level-1-platform.tmx": {
+            "expandedObjectLayers": [
+                14,
+                8,
+                10
+            ],
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1806.060606060606,
+                "y": 798.4848484848485
+            }
+        },
+        "level-1-platform.tmx#level-1": {
+            "scaleInDock": 0.2277
+        },
+        "level-1-platform.tmx#level-1-Obby": {
+            "scaleInDock": 0.258,
+            "scaleInEditor": 0.39
+        },
+        "level-1.tsx": {
+            "scaleInDock": 0.2051,
+            "scaleInEditor": 0.43
+        },
+        "level-1E-platform.tmx": {
+            "expandedObjectLayers": [
+                2,
+                4,
+                3
+            ],
+            "scale": 0.23,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1256.5217391304348,
+                "y": 871.7391304347825
+            }
+        },
+        "level-1E-platform.tmx#level-1E": {
+            "scaleInDock": 0.2425,
+            "scaleInEditor": 0.53
+        },
+        "level-1E-platform.tmx#level-1E-Obby": {
+            "scaleInDock": 0.149,
+            "scaleInEditor": 0.53
+        },
+        "level-2-platform.tmx": {
+            "expandedObjectLayers": [
+                6,
+                7
+            ],
+            "scale": 0.28,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 964.285714285714,
+                "y": 583.9285714285713
+            }
+        },
+        "level-2-platform.tmx#level-2": {
+            "scaleInDock": 0.2372,
+            "scaleInEditor": 1
+        },
+        "level-2-platform.tmx#level-2-Obby": {
+            "scaleInDock": 0.2392,
+            "scaleInEditor": 1
+        },
+        "level-2E-platform.tmx": {
+            "expandedObjectLayers": [
+                2,
+                4,
+                3
+            ],
+            "scale": 0.361,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1578.947368421053,
+                "y": 610.803324099723
+            }
+        },
+        "level-2E-platform.tmx#level-2E": {
+            "scaleInDock": 0.2045,
+            "scaleInEditor": 1
+        },
+        "level-2E-platform.tmx#level-2E-Obby": {
+            "scaleInDock": 0.1958,
+            "scaleInEditor": 1
+        },
+        "level-3-platform.tmx": {
+            "expandedObjectLayers": [
+                2,
+                4,
+                3
+            ],
+            "scale": 0.43,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 767.4418604651163,
+                "y": 938.3720930232558
+            }
+        },
+        "level-3-platform.tmx#level-3": {
+            "scaleInDock": 0.2313
+        },
+        "level-3-platform.tmx#level-3-Obby": {
+            "scaleInDock": 0.248
+        },
+        "level-3E-platform.tmx": {
+            "scale": 0.2332,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1295.0257289879933,
+                "y": 619.639794168096
+            }
+        },
+        "level-3E-platform.tmx#level-3E": {
+            "scaleInDock": 0.1877
+        },
+        "level-3E-platform.tmx#level-3E-Obby": {
+            "scaleInDock": 1
+        },
+        "level-Obby.tsx": {
+            "scaleInDock": 0.1969,
+            "scaleInEditor": 0.32
+        },
+        "level-S-platform.tmx": {
+            "expandedObjectLayers": [
+                2,
+                4,
+                3
+            ],
+            "scale": 0.38,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1128.9473684210527,
+                "y": 501.3157894736843
+            }
+        },
+        "level-S-platform.tmx#level-S": {
+            "scaleInDock": 0.3758,
+            "scaleInEditor": 0.39
+        },
+        "level-S-platform.tmx#level-S-Obby": {
+            "scaleInDock": 0.2542
+        },
+        "platformer-level-1.tmx": {
+            "scale": 0.83,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 497.5903614457831,
+                "y": 300.60240963855426
+            }
+        },
+        "platformer-level-1.tmx#kenny_tilemap_packed": {
+            "scaleInDock": 1,
+            "scaleInEditor": 0.5
+        },
+        "tutorial.tmx": {
+            "expandedObjectLayers": [
+                2,
+                4,
+                3
+            ],
+            "scale": 0.23,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1465.2173913043478,
+                "y": 984.782608695652
+            }
+        },
+        "tutorial.tmx#tut-tiles": {
+            "scaleInDock": 0.3116
+        },
+        "tutorial.tmx#tut-tiles-Obby": {
+            "scaleInDock": 0.1683
+        }
+    },
+    "frame.defaultDuration": 500,
+    "last.exportedFilePath": "/Users/jsales/CMPM120/PlatformerGame/assets",
+    "last.imagePath": "/Users/jsales/CMPM120/PlatformerGame/assets",
+    "lastUsedTilesetExportFilter": "Tiled tileset files (*.tsx *.xml)",
+    "map.height": 20,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 64,
+    "map.tileWidth": 64,
+    "map.width": 40,
+    "openFiles": [
+        "level-1-platform.tmx",
+        "level-1.tsx",
+        "level-Obby.tsx",
+        "/Users/jsales/CMPM120/PlatformImprovement-master/assets/platformer-level-1.tmx"
+    ],
+    "project": "PlatformGame.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "level-1-platform.tmx",
+        "tutorial.tmx",
+        "level-3-platform.tmx",
+        "platformer-level-1.tmx",
+        "level-1.tsx",
+        "level-Obby.tsx",
+        "/Users/jsales/CMPM120/PlatformImprovement-master/assets/platformer-level-1.tmx",
+        "level-2-platform.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 128,
+        "width": 128
+    }
+}

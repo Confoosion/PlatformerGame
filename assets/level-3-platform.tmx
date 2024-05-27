@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="43">
+ <editorsettings>
+  <export target="level-3-platform.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="level-3" tilewidth="64" tileheight="64" tilecount="484" columns="22">
+  <image source="spritesheet_retina.png" width="1408" height="1408"/>
+  <tile id="186">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="188">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="189">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="231">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="298">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="299">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="485" name="level-3-Obby" tilewidth="128" tileheight="128" tilecount="121" columns="11">
+  <image source="spritesheet_retina.png" width="1408" height="1408"/>
+  <tile id="5">
+   <properties>
+    <property name="hiddenLevel" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="76">
+   <properties>
+    <property name="death" type="bool" value="true"/>
+   </properties>
+   <animation>
+    <frame tileid="76" duration="500"/>
+    <frame tileid="96" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="nextLevel" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup id="2" name="Saws">
+  <object id="3" name="saw" gid="561" x="1088" y="768" width="128" height="128"/>
+  <object id="4" name="saw" gid="561" x="576" y="576" width="128" height="128"/>
+  <object id="5" name="saw" gid="561" x="640" y="640" width="128" height="128"/>
+  <object id="6" name="saw" gid="561" x="629.75" y="770.25" width="128" height="128"/>
+  <object id="7" name="saw" gid="561" x="1729.75" y="1279.63" width="128" height="128"/>
+  <object id="8" name="saw" gid="561" x="1979.75" y="1279.63" width="128" height="128"/>
+  <object id="9" name="saw" gid="561" x="2193.12" y="1287.33" width="128" height="128"/>
+  <object id="10" name="saw" gid="561" x="2311.73" y="1290.45" width="128" height="128"/>
+  <object id="11" name="saw" gid="561" x="2429.75" y="698.375" width="128" height="128"/>
+  <object id="27" name="saw" gid="561" x="448" y="576" width="128" height="128"/>
+  <object id="28" name="saw" gid="561" x="329.75" y="579.75" width="128" height="128"/>
+  <object id="29" name="saw" gid="561" x="320" y="448" width="128" height="128"/>
+  <object id="30" name="saw" gid="561" x="1088" y="832" width="128" height="128"/>
+  <object id="31" name="saw" gid="561" x="0" y="128" width="128" height="128"/>
+  <object id="32" name="saw" gid="561" x="0" y="256" width="128" height="128"/>
+  <object id="33" name="saw" gid="561" x="0" y="384" width="128" height="128"/>
+  <object id="34" name="saw" gid="561" x="0" y="512" width="128" height="128"/>
+  <object id="39" name="saw" gid="561" x="0" y="640" width="128" height="128"/>
+  <object id="40" name="saw" gid="561" x="0" y="768" width="128" height="128"/>
+  <object id="41" name="saw" gid="561" x="0" y="896" width="128" height="128"/>
+  <object id="42" name="saw" gid="561" x="0" y="1024" width="128" height="128"/>
+ </objectgroup>
+ <layer id="1" name="floor-and-tiles" width="40" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,231,232,0,0,0,0,0,0,0,0,187,188,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,254,231,232,187,188,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,231,232,254,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,253,254,254,0,0,0,0,0,0,0,0,0,0,0,187,188,
+0,0,0,0,0,0,0,0,0,187,188,0,0,0,0,187,188,0,0,0,0,187,188,253,254,232,232,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,253,254,254,0,0,0,0,0,0,187,188,0,0,0,0,0,
+0,0,0,0,0,231,232,231,232,231,232,0,0,0,0,0,0,0,0,0,0,0,0,231,232,231,232,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,253,254,253,254,253,254,0,0,0,0,0,0,0,0,0,0,0,0,253,231,231,232,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,231,232,231,232,231,232,0,0,0,0,0,0,0,0,0,0,0,0,231,231,253,254,187,188,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,253,254,253,254,253,254,0,0,231,232,231,232,0,0,231,232,0,0,253,253,254,0,0,0,0,0,0,0,187,188,0,0,0,0,0,
+0,0,0,0,0,231,232,231,232,231,232,0,0,253,254,253,254,0,0,253,254,253,254,253,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,253,254,253,254,253,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,231,232,231,232,231,232,231,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,189,190,0,0,0,0,0,0,187,188,0,
+0,0,0,0,0,253,254,253,254,253,254,253,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,211,212,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,231,232,231,232,231,232,231,232,231,232,231,232,0,0,363,364,0,0,0,0,189,190,0,0,277,278,0,0,189,190,0,0,0,0,0,
+0,0,0,0,0,253,254,253,254,253,254,253,254,253,254,253,254,0,0,385,386,0,0,0,0,211,212,0,0,299,300,0,0,211,212,0,0,0,0,0,
+0,0,0,0,0,231,232,231,232,231,232,231,232,231,232,231,232,231,232,231,232,231,232,187,188,277,278,0,0,277,278,0,0,277,278,0,0,0,189,190,
+231,231,232,231,232,253,254,253,254,253,254,253,254,253,254,253,254,253,254,253,254,253,254,0,0,299,300,0,0,299,300,0,0,299,300,0,0,0,211,212
+</data>
+ </layer>
+ <objectgroup id="3" name="Gems">
+  <object id="14" name="gem" gid="576" x="2432.88" y="1154.63" width="128" height="128"/>
+  <object id="15" name="gem" gid="576" x="2432" y="128" width="128" height="128"/>
+  <object id="16" name="gem" gid="576" x="960" y="1024" width="128" height="128"/>
+  <object id="17" name="gem" gid="576" x="1217.25" y="704.625" width="128" height="128"/>
+  <object id="19" name="gem" gid="576" x="844.875" y="699.125" width="128" height="128"/>
+  <object id="20" name="gem" gid="576" x="1472" y="128" width="128" height="128"/>
+  <object id="21" name="gem" gid="576" x="1728" y="340.25" width="128" height="128"/>
+  <object id="22" name="gem" gid="576" x="1600" y="960" width="128" height="128"/>
+  <object id="23" name="gem" gid="576" x="2432" y="512" width="128" height="128"/>
+  <object id="24" name="gem" gid="576" x="2112" y="704" width="128" height="128"/>
+ </objectgroup>
+ <objectgroup id="4" name="Doors">
+  <object id="25" name="door" gid="578" x="1344" y="768" width="128" height="128"/>
+  <object id="26" name="secret" gid="490" x="0" y="1216" width="128" height="128"/>
+ </objectgroup>
+</map>

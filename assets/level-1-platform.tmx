@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="16" nextobjectid="45">
+ <editorsettings>
+  <export target="level-1-platform.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="level-1-Obby" tilewidth="128" tileheight="128" tilecount="121" columns="11">
+  <image source="spritesheet_retina.png" width="1408" height="1408"/>
+  <tile id="76">
+   <objectgroup draworder="index" id="3">
+    <object id="2" x="62.6024" y="3.3491">
+     <polygon points="0,0 -59.5109,60.2838 -0.257623,123.401 63.6329,61.5719"/>
+    </object>
+   </objectgroup>
+   <animation>
+    <frame tileid="76" duration="500"/>
+    <frame tileid="96" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="91">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+   <objectgroup draworder="index" id="2">
+    <object id="1" x="46.6298" y="38.3858">
+     <polygon points="0,0 -18.5489,17.776 17.5184,56.4194 53.8432,20.8675 34.2639,-0.772869"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="93">
+   <properties>
+    <property name="nextLevel" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="122" name="level-1" tilewidth="64" tileheight="64" tilecount="484" columns="22">
+  <image source="spritesheet_retina.png" width="1408" height="1408"/>
+  <tile id="74">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="75">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="186">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="231">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="320">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="321">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <objectgroup id="8" name="Saws">
+  <object id="19" name="saw" gid="77" x="769.333" y="1276.12" width="128" height="128">
+   <properties>
+    <property name="death" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="20" name="saw" gid="77" x="1281.45" y="1209.45" width="128" height="128">
+   <properties>
+    <property name="death" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="22" name="saw" gid="77" x="1790.55" y="321.576" width="128" height="128">
+   <properties>
+    <property name="death" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="23" name="saw" gid="77" x="645.091" y="751.879" width="128" height="128">
+   <properties>
+    <property name="death" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="24" name="saw" gid="77" x="293.576" y="321.576" width="128" height="128">
+   <properties>
+    <property name="death" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="25" name="saw" gid="77" x="960.242" y="300.364" width="128" height="128">
+   <properties>
+    <property name="death" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="1" name="floor-and-tiles" width="40" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,308,309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,308,309,0,0,0,0,0,0,0,0,0,0,0,308,309,0,0,0,0,308,309,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,308,309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,308,309,0,0,442,308,309,308,309,443,
+0,0,0,0,0,0,0,0,0,0,0,308,309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,464,0,0,0,0,465,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,354,0,0,0,0,355,
+308,309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,376,0,0,0,0,377,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,354,0,0,0,0,355,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,308,309,308,309,308,309,0,0,0,308,309,0,0,0,0,376,0,0,0,0,377,
+0,308,309,0,0,0,0,308,309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,354,0,0,0,0,355,
+0,0,0,0,0,0,0,0,0,0,0,0,0,308,309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,376,0,0,0,0,377,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,352,353,353,354,0,0,0,0,355,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,353,352,353,376,0,0,0,309,377,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,352,353,352,352,374,375,354,0,0,0,0,355,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,374,352,374,374,375,353,376,0,0,0,0,377,
+484,485,0,0,0,0,0,0,352,352,353,353,0,0,352,352,353,353,0,0,0,0,0,0,352,352,353,353,352,374,352,352,374,375,354,308,0,0,0,355,
+506,507,0,0,0,0,0,0,352,374,375,353,0,0,374,374,352,353,0,0,0,0,0,0,352,353,353,352,353,352,374,374,375,353,376,0,0,0,0,377,
+352,353,352,353,352,353,352,353,374,375,375,375,0,0,352,374,374,375,352,352,353,352,353,353,374,352,352,374,352,374,375,374,374,375,376,0,0,0,0,377,
+374,375,374,375,374,375,374,375,374,374,375,375,0,0,374,375,375,375,375,375,374,375,375,375,374,374,374,375,374,374,375,374,375,375,196,197,196,197,196,197
+</data>
+ </layer>
+ <objectgroup id="10" name="Gems">
+  <object id="26" name="gem" gid="92" x="2302.67" y="1221.58" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="27" name="gem" gid="92" x="769.333" y="988.242" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="31" name="gem" gid="92" x="1281.45" y="991.273" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="32" name="gem" gid="92" x="1217.82" y="1027.64" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="34" name="gem" gid="92" x="1345.09" y="1024.61" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="35" name="gem" gid="92" x="1342.06" y="573.091" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" name="gem" gid="92" x="960.242" y="124.606" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="37" name="gem" gid="92" x="702.667" y="321.576" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="38" name="gem" gid="92" x="2302.67" y="260.97" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="40" name="gem" gid="92" x="-0.363636" y="451.879" width="128" height="128">
+   <properties>
+    <property name="collect" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="Doors">
+  <object id="42" name="door" gid="94" x="2432.97" y="257.939" width="128" height="128"/>
+ </objectgroup>
+</map>

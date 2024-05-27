@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="64" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="12">
+ <editorsettings>
+  <export target="endScreen.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="level-end" tilewidth="64" tileheight="64" tilecount="484" columns="22">
+  <image source="spritesheet_retina.png" width="1408" height="1408"/>
+  <tile id="186">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="187">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="230">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="231">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="252">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="253">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="270">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="271">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="292">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="293">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="320">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="321">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="485" name="level-end-Obby" tilewidth="128" tileheight="128" tilecount="121" columns="11">
+  <image source="spritesheet_retina.png" width="1408" height="1408"/>
+ </tileset>
+ <layer id="1" name="floor-and-tiles" width="32" height="20">
+  <data encoding="csv">
+231,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,
+253,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,254,
+231,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,
+253,254,0,0,0,0,0,0,0,0,0,0,0,0,0,187,188,0,0,0,0,0,0,0,0,0,0,0,0,0,253,254,
+231,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,
+253,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,254,
+231,232,0,0,0,0,0,0,0,0,0,321,322,0,0,0,0,0,0,321,322,0,0,0,0,0,0,0,0,0,231,232,
+253,254,0,0,0,0,0,0,0,321,322,343,344,0,0,0,0,0,0,343,344,321,322,0,0,0,0,0,0,0,253,254,
+231,232,0,0,0,0,0,0,0,343,344,233,234,0,0,321,322,0,0,233,234,343,344,0,0,0,0,0,0,0,231,232,
+253,254,0,0,0,0,0,0,0,255,256,255,256,0,0,343,344,0,0,255,256,255,256,0,0,0,0,0,0,0,253,254,
+231,232,0,0,187,188,187,188,187,188,187,188,187,188,187,188,187,188,187,188,187,188,187,188,187,188,187,188,0,0,231,232,
+253,254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,254,
+231,232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,231,232,
+253,254,321,322,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,321,322,253,254,
+231,232,233,234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,343,344,231,232,
+253,254,255,256,0,321,322,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,321,322,0,0,255,256,253,254,
+231,232,233,234,0,343,344,0,321,322,0,0,181,182,0,0,0,0,0,0,0,181,182,0,343,344,0,0,321,322,231,232,
+253,254,255,256,0,255,256,0,343,344,0,0,203,204,0,0,0,0,0,0,0,203,204,0,255,256,0,0,343,344,253,254,
+231,232,271,272,271,272,271,272,271,272,271,272,271,272,271,272,271,272,271,272,271,272,271,272,271,272,271,272,271,272,231,232,
+253,254,293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,293,294,253,254
+</data>
+ </layer>
+ <objectgroup id="2" name="Doors">
+  <object id="7" name="doorEasy" gid="578" x="960" y="512" width="128" height="128"/>
+  <object id="11" name="doorHard" gid="578" x="960" y="192" width="128" height="128"/>
+ </objectgroup>
+</map>
