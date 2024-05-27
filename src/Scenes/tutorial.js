@@ -150,6 +150,9 @@ class tutorial extends Phaser.Scene {
         this.gemsText = this.add.text(1980, 200, "Gems:0/10", { fontSize: "52px", fill: "#F00" });
         this.gemsText.setScrollFactor(0);
 
+        this.zoomText = this.add.text(250, 250, "Zoom out 50%\nto see the whole game!\n (\"cmd\"/\"ctrl\" + \"-\")", { fontSize: '32px', fill: '#FFF' });
+        this.zoomText.setOrigin(0.5);
+        
         this.tutorialText1 = this.add.text(200, 900, "Use the arrow keys\nto move!", { fontSize: "32px", fill: "#FFF" });
         this.tutorialText1.setOrigin(0.5);
 
