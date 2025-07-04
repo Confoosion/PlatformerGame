@@ -3,6 +3,7 @@ Class project for CMPM120. It is a very difficult 2D Platformer where you collec
 
 Here is the link to play the game: https://confoosion.github.io/PlatformerGame/
 
-Left and right arrow keys to move
-Up Arrow to jump
-Shift to dash
+**CONTROLS**
+- Left and right arrow keys to move
+- Up Arrow to jump
+- Shift to dash
